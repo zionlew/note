@@ -1,27 +1,19 @@
-大标题
-=====
+# heada
+dsf
 
-中标题
------------------------------------
+## head2		
+
+>ps:ygij
+
+```java
+public static void main
+```
+|      a  | b  |
+|---------|----|
+|      a  | b  |
+|      a  | b  |
+|      a  | b  |
 
 
-### 小标题
-	public class Demo {
-		
-		public static void main(String[] args) throws Exception {
-		
-			// System.getProperties().list(System.out);
 
-		int i[] = { 1, 2, 3 };
-		System.out.println(i[2]);
-	}
-
-}
-
-			
- 夺
-		夺夺
- 
- 
- 
-			
+![静态资源分析系统](https://raw.githubusercontent.com/fouber/blog/master/assets/log.png)
