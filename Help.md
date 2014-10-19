@@ -16,7 +16,6 @@ public static void main
 
 
 
-![静态资源分析系统]
+![bb](https://raw.githubusercontent.com/zionlew/note/master/pg1.png)
 
-
-(https://raw.githubusercontent.com/zionlew/note/master/pg1.png)
+[aa](https://raw.githubusercontent.com/zionlew/note/master/pg1.png)
