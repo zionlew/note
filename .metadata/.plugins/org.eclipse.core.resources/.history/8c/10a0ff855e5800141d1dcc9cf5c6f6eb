@@ -1,0 +1,13 @@
+package com.xmldemo;
+
+public class DomDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

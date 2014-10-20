@@ -1,0 +1,57 @@
+package com.xmldemo;
+
+import java.io.IOException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+public class DomDemo {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+    /**
+     * 遍历xml文档
+     * */
+	public void queryXml(){
+		
+		//Dom 工厂实例
+		DocumentBuilderFactory fac = DocumentBuilderFactory.newInstance();
+		
+		try {
+			//从工厂中获得实例
+			//获取此类的实例之后，将可以从各种输入源解析 XML。
+			DocumentBuilder build = fac.newDocumentBuilder();
+
+            try {
+    			//把要解析的xml文档读入DOM解析器
+            	Document doc = build.parse("src/school.xml");
+            	
+            	NodeList nList = doc.getElementsByTagName("Student");
+            	
+            	for(int i = 0; i < nList.getLength(); i++ ){
+            		Element node = 	(Element)nList.item(i);
+            		System.out.println(node.getElementsByTagName("Name").item(0).getFirstChild().getNodeValue());
+            	}
+			} catch (SAXException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+            
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+
+}

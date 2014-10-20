@@ -1,0 +1,16 @@
+package com.xmldemo;
+
+public class DomDemo {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	//±éÀúXML
+	public void queryXml(){
+		
+	}
+	
+
+}

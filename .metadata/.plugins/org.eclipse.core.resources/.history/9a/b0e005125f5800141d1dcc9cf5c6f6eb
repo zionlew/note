@@ -1,0 +1,21 @@
+package com.xmldemo;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
+public class DomDemo {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+    /**
+     * ±éÀúxmlÎÄµµ
+     * */
+	public void queryXml(){
+		//
+		DocumentBuilderFactory fac = DocumentBuilderFactory.newInstance();
+	}
+	
+
+}
